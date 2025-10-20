@@ -1,0 +1,32 @@
+2025-10-17 15:09:33,867 [INFO] Bot starting.
+2025-10-17 15:09:33,867 [ERROR] BOT_TOKEN/CHAT_ID not configured.
+2025-10-17 15:10:39,643 [INFO] Bot starting.
+2025-10-17 15:11:59,234 [INFO] Saved message to daily_message.txt
+2025-10-17 15:11:59,255 [INFO] Scheduled daily job at 08:00
+2025-10-17 15:12:07,542 [INFO] Running scheduled job to send message.
+2025-10-17 15:12:17,995 [INFO] Message sent successfully.
+2025-10-17 15:30:10,297 [INFO] Bot starting.
+2025-10-17 15:30:10,298 [INFO] Loaded message from daily_message.txt
+2025-10-17 15:30:10,299 [INFO] Scheduled daily job at 08:00
+2025-10-17 15:31:41,065 [INFO] Running scheduled job to send message.
+2025-10-17 15:31:41,970 [INFO] Message sent successfully.
+2025-10-17 17:14:27,756 [INFO] Bot starting.
+2025-10-17 17:14:27,758 [INFO] Loaded message from daily_message.txt
+2025-10-17 17:14:27,759 [INFO] Scheduled daily job at 08:00
+2025-10-17 17:16:44,661 [INFO] Bot starting.
+2025-10-17 17:16:44,661 [INFO] Loaded message from daily_message.txt
+2025-10-17 17:16:44,662 [INFO] Scheduled daily job at 08:00
+2025-10-17 17:16:46,997 [INFO] Sending scheduled message for Friday
+2025-10-17 17:16:48,122 [INFO] Message sent successfully.
+2025-10-17 20:23:18,764 [INFO] Bot starting.
+2025-10-17 20:23:18,803 [INFO] Loaded message from daily_message.txt
+2025-10-17 20:23:18,825 [INFO] Scheduled daily job at 08:00
+2025-10-17 20:27:29,943 [INFO] Bot starting.
+2025-10-17 20:27:29,943 [INFO] Loaded message from daily_message.txt
+2025-10-17 20:27:29,948 [INFO] Scheduled daily job at 08:00
+2025-10-17 20:29:15,370 [INFO] Bot starting.
+2025-10-17 20:29:15,370 [INFO] Loaded message from daily_message.txt
+2025-10-17 20:29:15,370 [INFO] Scheduled daily job at 08:00
+2025-10-17 20:29:23,719 [INFO] Bot starting.
+2025-10-17 20:29:23,720 [INFO] Loaded message from daily_message.txt
+2025-10-17 20:29:23,721 [INFO] Scheduled daily job at 08:00
