@@ -12,8 +12,8 @@ from pathlib import Path
 
 
 # ------------- CONFIG -------------
-TELEGRAM_BOT_TOKEN = "6767405300:AAEyckYT-5W5Z3iGwvvUNbWVnXpMeQWBtr4"  # Your bot token
-CHAT_ID = "-1001779062214"  # Your chat ID (note: must be a string, no minus outside quotes)
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # Your bot token
+CHAT_ID = os.getenv("CHAT_ID")  # Your chat ID (note: must be a string, no minus outside quotes)
 SCHEDULE_TIME = os.getenv("SCHEDULE_TIME", "08:00")  # 8 AM Nigeria Time
 MESSAGE_FILE = os.getenv("MESSAGE_FILE", "daily_message.txt")  # Message file
 LOG_FILE = "bot.log"
