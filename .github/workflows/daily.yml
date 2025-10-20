@@ -1,0 +1,33 @@
+name: Daily Telegram Message
+
+on:
+  schedule:
+    # Run every day at 7 AM UTC = 8 AM Nigeria (UTC+1)
+    - cron: '0 7 * * *'
+  workflow_dispatch:  # allows manual trigger from GitHub
+
+jobs:
+  send_message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests schedule
+
+      - name: Run Telegram Bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          SCHEDULE_TIME: ${{ secrets.SCHEDULE_TIME }}
+          SEND_ON_START: ${{ secrets.SEND_ON_START }}
+        run: |
+          python daily_telegram_bot.py
