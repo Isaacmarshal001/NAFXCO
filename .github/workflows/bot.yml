@@ -30,4 +30,4 @@ jobs:
           SCHEDULE_TIME: ${{ secrets.SCHEDULE_TIME }}
           SEND_ON_START: ${{ secrets.SEND_ON_START }}
         run: |
-          python daily_telegram_bot.py
+          python New_Age_FxCBot.py
